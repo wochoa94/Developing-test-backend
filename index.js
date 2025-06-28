@@ -31,5 +31,5 @@ app.get('/puntos', async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(API running on port ${port});
+  console.log(`API running on port ${port}`);
 });
